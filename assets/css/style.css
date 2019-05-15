@@ -1,0 +1,99 @@
+body{
+    --elegant-color: #212121;
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--elegant-color);
+	
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	right: 0;
+    bottom: 0;	
+}
+
+/* nav{
+    position: fixed;
+    z-index: 999;    
+} */
+
+.logo{
+    height: 7vh;
+}
+
+
+::selection {color:#f5f6fa; background: var(--elegant-color);}
+::-moz-selection {color:#f5f6fa; background: var(--elegant-color);}
+::-webkit-selection {color:#f5f6fa; background: var(--elegant-color);}
+
+
+.view .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.pattern {
+    background: url(../img/mask.png) fixed;
+}
+
+.parallax{
+    display: inline-block;
+    height: 40vh;
+}
+
+.btn-custom{
+    background-color: var(--elegant-color);
+    color: #f5f6fa;
+    border-radius: 10px;
+    border: 1px solid var(--elegant-color);
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.btn-custom:hover{
+    color: var(--elegant-color);
+    background-color: #f5f6fa;
+}
+
+.container-about-us{
+    background-color: var(--elegant-color);
+    height: 30vh;
+}
+
+.row-custom{
+    display: flex;
+    padding-left: 50%;
+}
+
+.number-block{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.number-block span {
+    color: #ffff;
+    display: block;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 700;
+}
+
+.number-block small {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+

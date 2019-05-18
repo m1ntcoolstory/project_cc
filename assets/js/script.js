@@ -2,11 +2,13 @@ $(document).ready(function () {
 
 	// Preloader
 	$(window).on('load', function () {
-		$('.preloader-background').delay(1500).fadeOut('slow');
+		$('.preloader-background-v2').delay(1500).fadeOut('slow');
 	});
 
 	// Sidenav
 	$('.sidenav').sidenav();
+
+	
 
 	// Carousel
 	$('.carousel.carousel-slider').carousel({

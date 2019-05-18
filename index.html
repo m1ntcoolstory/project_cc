@@ -17,7 +17,7 @@
 <body>
 
     <!-- Preloader -->
-    <div class="preloader-background">
+    <!-- <div class="preloader-background">
         <div class="preloader-wrapper big active">
             <div class="spinner-layer spinner-blue-only">
                 <div class="circle-clipper left">
@@ -31,8 +31,13 @@
                 </div>
             </div>
         </div>
+    </div> -->
+    <div class="preloader-background-v2">
+        <div class="load-circle">
+        </div>
     </div>
     <!-- /.Preloader -->
+
 
 
 
@@ -46,7 +51,7 @@
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.html" class="waves-effect waves-light">Домой</a></li>
                 <li><a href="#about-us" class="waves-effect waves-light">О нас</a></li>
-                <li><a href="" class="waves-effect waves-light">Наши услуги</a></li>
+                <li><a href="index.html" class="waves-effect waves-light">Наши услуги</a></li>
                 <li><a href="#join-the-club" class="waves-effect waves-light">Записаться в клуб</a></li>
             </ul>
 
@@ -56,9 +61,8 @@
     <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">Домой</a></li>
         <li><a href="#about-us">О нас</a></li>
-        <li><a href="#">Наши услуги</a></li>
+        <li><a href="index.html">Наши услуги</a></li>
         <li><a href="#join-the-club">Записаться в клуб</a></li>
-        <li><a href="#" id="close">Закрыть</a></li>
     </ul>
     <!-- /.Mobile -->
     <!-- /.Nav -->
@@ -182,7 +186,7 @@
     </div>
 
     <!-- Info -->
-    <div class="full-width container-about-us" id="about-us">
+    <!-- <div class="full-width container-about-us" id="about-us">
         <div class="row-custom">
             <div class="col l8 m8">
                 <div class="row row-custom">
@@ -197,16 +201,32 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+    <div class="full-width container-about-us" id="about-us">
+            <div class="row">
+                <div class="col l8 m8">
+                    <div class="row center">
+                        <div class="number-block col l3 m3">
+                            <span>2</span>
+                            <small>года работы</small>
+                        </div>
+                        <div class="number-block col l3 m3">
+                            <span>>200</span>
+                            <small>выпускников</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- /.Info -->
 
     <!-- Parallax -->
     <div class="parallax-container">
-        <div class="parallax">
-            <img src="assets/img/parallax.jpg" class="responsive-img" alt="img">
-        </div>
+        <div class="parallax"><img src="assets/img/parallax.jpg"></div>
     </div>
     <!-- /.Parallax -->
+
+
 
 
     <!-- Form -->
@@ -220,7 +240,6 @@
             <input id="last_name" type="text" class="validate">
             <label class="active" for="last_name">Фамилия</label>
         </div>
-
         <div class="input-field col s6 m6">
             <input id="telephone" type="tel" class="validate">
             <label for="telephone">Телефон</label>
@@ -230,13 +249,33 @@
             <label for="email">Email</label>
             <span class="helper-text" data-error="Неверный формат email" data-success="Верно"></span>
         </div>
-        <div class="row center">
-            <button type="button" class="btn-custom">Отправить</button>
+        <div class="row">
+            <input type="submit" class="btn-custom center-align" value="отправить">
         </div>
         </form>
     </div>
     </div>
     <!-- /.Form -->
+
+
+    <!-- Footer -->
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright black">
+            <div class="container center">
+                © 2019 Copyright Text
+            </div>
+        </div>
+    </footer>
+    <!-- /.Footer -->
 
 
 

@@ -3,7 +3,7 @@ body{
     --white-color: #f5f6fa;
 }
 
-.preloader-background-v2{
+.preloader-background{
     position: fixed;
     top: 0;
     left: 0;
@@ -42,11 +42,11 @@ body{
     }
 }
 
-/* nav{
+nav{
     position: fixed;
     z-index: 999;    
     opacity: .9;
-}  */
+}  
 
 .logo{
     height: 7vh;

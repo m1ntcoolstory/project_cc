@@ -1,14 +1,7 @@
 $(document).ready(function () {
 
-	// Preloader
-	$(window).on('load', function () {
-		$('.preloader-background').delay(1500).fadeOut('slow');
-	});
-
 	// Sidenav
 	$('.sidenav').sidenav();
-
-	
 
 	// Carousel
 	$('.carousel.carousel-slider').carousel({
@@ -26,6 +19,5 @@ $(document).ready(function () {
 			top = $(id).offset().top;
 		$('body,html').animate({ scrollTop: top }, 1500);
 	});
-
 
 });
